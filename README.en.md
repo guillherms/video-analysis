@@ -100,3 +100,5 @@ This project is for academic purposes only.
 
 Questions or suggestions?  
 Contact via [GitHub](https://github.com/guillherms) or [LinkedIn](https://www.linkedin.com/in/guilherme-santos-de-oliveira-ba9986161/)
+
+---
