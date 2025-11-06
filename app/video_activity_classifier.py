@@ -24,4 +24,4 @@ for start, end, label in clips:
     output_path = f"data/output/videos/{label}.mp4"
     sub.write_videofile(output_path, codec="libx264", audio=False)
 
-print("✅ All scenes exported successfully with English labels!")
+print("All scenes exported successfully!")
