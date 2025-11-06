@@ -6,3 +6,7 @@ pandas
 pyarrow
 fastparquet
 scikit-learn
+
+datasets
+tensorflow
+joblib
