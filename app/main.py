@@ -48,7 +48,8 @@ def analyze_emotion_deepface(face_bgr: np.ndarray) -> Optional[Tuple[str, float]
 
 
 def main():
-    video_in = "data/input/video/facial_rcecognition_activities_analysis.mp4"
+    #video_in = "data/input/video/facial_rcecognition_activities_analysis.mp4"
+    video_in = "data/output/videos/testing.mp4"
     video_out = "data/output/videos/testing2.mp4"
 
     MIN_DRAW_CONF = 0.80
