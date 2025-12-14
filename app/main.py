@@ -51,7 +51,7 @@ def main():
     video_in = "data/input/video/facial_rcecognition_activities_analysis.mp4"
     video_out = "data/output/videos/testing2.mp4"
 
-    MIN_DRAW_CONF = 0.65   # 👈 ajuste aqui (0.60 a 0.75)
+    MIN_DRAW_CONF = 0.80
     conf_det = 0.20
     emo_every = 10
     min_face = 40
