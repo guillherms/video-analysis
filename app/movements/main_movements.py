@@ -11,7 +11,6 @@ from actions.default_state import DefaultStateDetector
 
 def main():
     video_in = "data/input/video/video_analysis.mp4"
-    #video_in = "data/output/videos_cut_scene/nothing.mp4"
 
     video_out = "data/output/videos/events.mp4"
     jsonl_out = "data/output/videos/events.jsonl"

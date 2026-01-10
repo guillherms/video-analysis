@@ -122,7 +122,8 @@ class DefaultStateDetector(ActionDetector):
         end = int(frame_idx)
         dur = (end - start) / float(fps)
         self.events.append({
-            "action": self.active_state,
+            "action": "default",
+            "status": self.active_state,
             "event_id": f"df_{len(self.events):05d}",
             "start_frame": start,
             "end_frame": end,

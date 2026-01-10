@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Dict, Tuple, Optional
-
+import json
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -48,9 +48,9 @@ def analyze_emotion_deepface(face_bgr: np.ndarray) -> Optional[Tuple[str, float]
 
 
 def main():
-    #video_in = "data/input/video/facial_rcecognition_activities_analysis.mp4"
-    video_in = "data/output/videos/testing.mp4"
-    video_out = "data/output/videos/testing3.mp4"
+    video_in = "data/input/video/video_analysis.mp4"
+    video_out = "data/output/videos/faces.mp4"
+    emotions_jsonl = "data/output/videos/emotions.jsonl"
 
     MIN_DRAW_CONF = 0.75
     conf_det = 0.20
@@ -77,6 +77,9 @@ def main():
     emo_cache: Dict[int, EmotionCacheItem] = {}
 
     frame_idx = 0
+    
+    emo_f = open(emotions_jsonl, "w", encoding="utf-8")
+
     while True:
         ok, frame = cap.read()
         if not ok:
@@ -138,6 +141,20 @@ def main():
                         emo, score = emo_res
                         emo_cache[track_id] = EmotionCacheItem(emo, score, frame_idx)
 
+                        emo_f.write(
+                            json.dumps(
+                                {
+                                    "frame": frame_idx,
+                                    "track_id": track_id,
+                                    "emotion": emo,
+                                    "score": round(score, 2),
+                                    "fps": fps,
+                                },
+                                ensure_ascii=False,
+                            )
+                            + "\n"
+                        )
+
                 emo_text = ""
                 if track_id in emo_cache:
                     ec = emo_cache[track_id]
@@ -193,6 +210,7 @@ def main():
 
     cap.release()
     out.release()
+    emo_f.close()
     print("✅ OK:", video_out)
 
 

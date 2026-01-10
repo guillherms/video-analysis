@@ -36,24 +36,24 @@
 {"action": "meeting", "event_id": "mt_00011", "start_frame": 3120, "end_frame": 3224, "duration_sec": 3.47, "fps": 30.0, "min_people": 4}
 {"action": "meeting", "event_id": "mt_00012", "start_frame": 3225, "end_frame": 3226, "duration_sec": 0.03, "fps": 30.0, "min_people": 4}
 {"action": "meeting", "event_id": "mt_00013", "start_frame": 3227, "end_frame": 3300, "duration_sec": 2.43, "fps": 30.0, "min_people": 4}
-{"action": "OCIOSO", "event_id": "df_00000", "start_frame": 0, "end_frame": 173, "duration_sec": 5.77, "fps": 30.0}
-{"action": "SE_MOVENDO", "event_id": "df_00001", "start_frame": 173, "end_frame": 197, "duration_sec": 0.8, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00002", "start_frame": 197, "end_frame": 360, "duration_sec": 5.43, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00003", "start_frame": 540, "end_frame": 545, "duration_sec": 0.17, "fps": 30.0}
-{"action": "SE_MOVENDO", "event_id": "df_00004", "start_frame": 545, "end_frame": 573, "duration_sec": 0.93, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00005", "start_frame": 573, "end_frame": 583, "duration_sec": 0.33, "fps": 30.0}
-{"action": "SE_MOVENDO", "event_id": "df_00006", "start_frame": 583, "end_frame": 728, "duration_sec": 4.83, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00007", "start_frame": 728, "end_frame": 1223, "duration_sec": 16.5, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00008", "start_frame": 1224, "end_frame": 1226, "duration_sec": 0.07, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00009", "start_frame": 1229, "end_frame": 1747, "duration_sec": 17.27, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00010", "start_frame": 1750, "end_frame": 1754, "duration_sec": 0.13, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00011", "start_frame": 1791, "end_frame": 1794, "duration_sec": 0.1, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00012", "start_frame": 1798, "end_frame": 2201, "duration_sec": 13.43, "fps": 30.0}
-{"action": "SE_MOVENDO", "event_id": "df_00013", "start_frame": 2201, "end_frame": 2230, "duration_sec": 0.97, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00014", "start_frame": 2230, "end_frame": 2812, "duration_sec": 19.4, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00015", "start_frame": 2814, "end_frame": 2837, "duration_sec": 0.77, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00016", "start_frame": 2938, "end_frame": 2993, "duration_sec": 1.83, "fps": 30.0}
-{"action": "SE_MOVENDO", "event_id": "df_00017", "start_frame": 2993, "end_frame": 3095, "duration_sec": 3.4, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00018", "start_frame": 3095, "end_frame": 3238, "duration_sec": 4.77, "fps": 30.0}
-{"action": "SE_MOVENDO", "event_id": "df_00019", "start_frame": 3238, "end_frame": 3246, "duration_sec": 0.27, "fps": 30.0}
-{"action": "OCIOSO", "event_id": "df_00020", "start_frame": 3246, "end_frame": 3326, "duration_sec": 2.67, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00000", "start_frame": 0, "end_frame": 173, "duration_sec": 5.77, "fps": 30.0}
+{"action": "default", "status": "SE_MOVENDO", "event_id": "df_00001", "start_frame": 173, "end_frame": 197, "duration_sec": 0.8, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00002", "start_frame": 197, "end_frame": 360, "duration_sec": 5.43, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00003", "start_frame": 540, "end_frame": 545, "duration_sec": 0.17, "fps": 30.0}
+{"action": "default", "status": "SE_MOVENDO", "event_id": "df_00004", "start_frame": 545, "end_frame": 573, "duration_sec": 0.93, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00005", "start_frame": 573, "end_frame": 583, "duration_sec": 0.33, "fps": 30.0}
+{"action": "default", "status": "SE_MOVENDO", "event_id": "df_00006", "start_frame": 583, "end_frame": 728, "duration_sec": 4.83, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00007", "start_frame": 728, "end_frame": 1223, "duration_sec": 16.5, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00008", "start_frame": 1224, "end_frame": 1226, "duration_sec": 0.07, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00009", "start_frame": 1229, "end_frame": 1747, "duration_sec": 17.27, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00010", "start_frame": 1750, "end_frame": 1754, "duration_sec": 0.13, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00011", "start_frame": 1791, "end_frame": 1794, "duration_sec": 0.1, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00012", "start_frame": 1798, "end_frame": 2201, "duration_sec": 13.43, "fps": 30.0}
+{"action": "default", "status": "SE_MOVENDO", "event_id": "df_00013", "start_frame": 2201, "end_frame": 2230, "duration_sec": 0.97, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00014", "start_frame": 2230, "end_frame": 2812, "duration_sec": 19.4, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00015", "start_frame": 2814, "end_frame": 2837, "duration_sec": 0.77, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00016", "start_frame": 2938, "end_frame": 2993, "duration_sec": 1.83, "fps": 30.0}
+{"action": "default", "status": "SE_MOVENDO", "event_id": "df_00017", "start_frame": 2993, "end_frame": 3095, "duration_sec": 3.4, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00018", "start_frame": 3095, "end_frame": 3238, "duration_sec": 4.77, "fps": 30.0}
+{"action": "default", "status": "SE_MOVENDO", "event_id": "df_00019", "start_frame": 3238, "end_frame": 3246, "duration_sec": 0.27, "fps": 30.0}
+{"action": "default", "status": "OCIOSO", "event_id": "df_00020", "start_frame": 3246, "end_frame": 3326, "duration_sec": 2.67, "fps": 30.0}

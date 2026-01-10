@@ -69,7 +69,7 @@ class MeetingDetector(ActionDetector):
             end = frame_idx - 1
             dur = (end - start) / fps
             self.events.append({
-                "action": "meeting",
+                "action": "em reunião/trabalhando",
                 "event_id": f"mt_{len(self.events):05d}",
                 "start_frame": int(start),
                 "end_frame": int(end),

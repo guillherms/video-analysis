@@ -68,7 +68,7 @@ class UsingPhoneDetector(ActionDetector):
             end = frame_idx - 1
             dur = (end - start) / fps
             self.events.append({
-                "action": "using_phone",
+                "action": "usando celular",
                 "event_id": f"ph_{len(self.events):05d}",
                 "start_frame": int(start),
                 "end_frame": int(end),
