@@ -1,8 +1,0 @@
-moviepy==1.0.3
-opencv-python
-mediapipe
-huggingface_hub
-pandas
-pyarrow
-fastparquet
-scikit-learn

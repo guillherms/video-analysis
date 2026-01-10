@@ -1,0 +1,54 @@
+{
+  "actions": {
+    "actions_duration_sec": {
+      "meeting": 13.5,
+      "using_phone": 4.200000000000001
+    },
+    "actions_percent": {
+      "meeting": 76.27,
+      "using_phone": 23.73
+    },
+    "status_duration_sec": {
+      "OCIOSO": 89.13333333333333,
+      "SE_MOVENDO": 11.4
+    },
+    "status_percent": {
+      "OCIOSO": 88.66,
+      "SE_MOVENDO": 11.34
+    }
+  },
+  "emotions": {
+    "emotions_count": {
+      "happy": 66,
+      "sad": 62,
+      "neutral": 37,
+      "fear": 33,
+      "angry": 17,
+      "surprise": 14
+    },
+    "emotions_percent_by_count": {
+      "happy": 28.82,
+      "sad": 27.07,
+      "neutral": 16.16,
+      "fear": 14.41,
+      "angry": 7.42,
+      "surprise": 6.11
+    },
+    "emotions_duration_sec_approx": {
+      "happy": 21.99999999999999,
+      "sad": 20.66666666666666,
+      "neutral": 12.333333333333337,
+      "fear": 11.000000000000002,
+      "angry": 5.666666666666665,
+      "surprise": 4.666666666666666
+    },
+    "emotions_percent_by_duration_approx": {
+      "happy": 28.82,
+      "sad": 27.07,
+      "neutral": 16.16,
+      "fear": 14.41,
+      "angry": 7.42,
+      "surprise": 6.11
+    }
+  }
+}
