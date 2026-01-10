@@ -1,1 +1,0 @@
-video_in = "data/output/videos/testing.mp4"
